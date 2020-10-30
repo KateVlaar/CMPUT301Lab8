@@ -37,6 +37,6 @@ class CityListTest
     void testGetCityName()
     {
         String cityName = mockCity().getCityName();
-        assertEquals(cityName.compareTo("Calgary"), 0);
+        assertEquals(cityName.compareTo("Edmonton"), 0);
     }
 }
