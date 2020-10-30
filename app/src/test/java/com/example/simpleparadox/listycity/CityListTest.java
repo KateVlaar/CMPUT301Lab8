@@ -36,6 +36,7 @@ class CityListTest
     @Test
     void testGetCityName()
     {
+        // Expect mock city to have cityname = Edmonton
         String cityName = mockCity().getCityName();
         assertEquals(cityName.compareTo("Edmonton"), 0);
     }
